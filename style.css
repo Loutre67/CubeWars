@@ -1,0 +1,62 @@
+
+body{
+
+    margin: 0; /*0, 0 origine*/
+    overflow: hidden; /*rogner contenu si besoin pour s'adapter a l'ecran*/
+
+}
+
+#score{
+
+    position: absolute; /*pos déf par limites conteneur*/
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    color: white; 
+    font-size: 30pt;
+    font-weight: bold;
+
+}
+
+#endtxt{
+
+    position: absolute;
+    top: 35%;
+    transform: translateY(-35%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    color: white; 
+    font-size: 45pt;
+    font-weight: bold;
+    
+}
+
+#restart{
+
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    color: white; 
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+#quit{
+
+    position: absolute;
+    bottom: 20%;
+    transform: translateY(20%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    color: white; 
+    font-size: 20pt;
+    font-weight: bold;
+    
+}
